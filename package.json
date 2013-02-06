@@ -1,0 +1,25 @@
+{
+  "name": "ltg",
+  "version": "0.0.1",
+  "description": "Import your Lighthouse tickets into Github issues",
+  "bin": {
+    "ltg": "./ltg.js"
+  },
+  "dependencies": {
+    "lighthouse-client": "~0.0.1",
+    "request": "~2.12.0",
+    "optimist": "~0.3.5",
+    "github": "~0.1.8",
+    "async": "~0.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbuck/ltg.git"
+  },
+  "keywords": [
+    "lighthouse",
+    "github"
+  ],
+  "author": "Jon Buckley <jon@jbuckley.ca>",
+  "license": "BSD"
+}
